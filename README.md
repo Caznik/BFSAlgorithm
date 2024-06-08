@@ -1,3 +1,5 @@
+<h2>This is a Hackerrank challenge: <a href="https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem">BFS: Shortest Reach in a Graph</a></h2>
+
 Consider an undirected graph consisting of ¨n¨ nodes where each node is labeled from ¨1¨ to ¨n¨ and the edge between any two nodes is always of length ¨6¨ . We define node ¨s¨ to be the starting position for a BFS. Given a graph, determine the distances from the start node to each of its descendants and return the list in node number order, ascending. If a node is disconnected, it's distance should be ¨-1¨.
 
 For example, there are "n=6" nodes in the graph with a starting node "s=1". The list of "edges = [(1,2),(2,3), (3,4), (1,5)]" , and each has a weight of "6".
